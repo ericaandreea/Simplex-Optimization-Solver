@@ -1,15 +1,13 @@
-A simple command-line application that solves linear programming problems using the Simplex Algorithm.
+O aplicație simplă în linia de comandă care rezolvă probleme de programare liniară folosind Algoritmul Simplex. 
 
-Technical Features:
-
-- Uses the Simplex method with the Big-M technique to handle constraints of type =, >=, and <=.
-- Displays the full simplex tableau at each iteration, providing clear traceability of variables entering and leaving the basis.
-- Includes a post-calculation verification module to ensure the solution satisfies all initial constraints.
+Facilități Tehnice: 
+- Utilizează metoda Simplex cu tehnica Big-M pentru gestionarea constrângerilor de tip =, >= și <=.
+-  Afișează tabelul simplex complet la fiecare iterație, oferind o trasabilitate clară a variabilelor care intră și ies din bază.
+-  Include un modul de verificare post-calcul pentru a asigura că soluția respectă toate restricțiile inițiale.
    
 ![rezultat](https://github.com/user-attachments/assets/3bcbba48-b9c5-47f1-8d80-63b113006b6f)
 
-How to use:
-
-- Compile the file: g++ main.cpp -o solver
-- Run the executable: ./solver
-- Enter the problem data according to the instructions displayed in the console.
+Cum se utilizează: 
+- Compilați fișierul: g++ main.cpp -o solver
+- Rulați executabilul: ./solver
+- Introduceți datele problemei conform instrucțiunilor din consolă. 
